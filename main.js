@@ -9,7 +9,7 @@ let storedElements =  () => {
     <div id="actualinput">
         <label for="inputUser" >Enter Your Task ${taskCounter}</label>
       
-            <textarea name="" id="inputUser" cols="29" rows="7" style="resize: none;"></textarea>
+            <textarea maxlength="200" name="" id="inputUser" cols="29" rows="7" style="resize: none;"></textarea>
             <i class="bi bi-x-square-fill"></i>
         </div>
     `;
