@@ -61,6 +61,7 @@ let displayResult = () => {
 let emptyInputFix = () => {
     let textAreas = document.querySelectorAll('#inputUser');
     let isEmptyTask = false; // Flag to track if an empty task is found
+    let actualInputDiv = document.querySelectorAll('#actualinput');
 
     textAreas.forEach((x) => {
         if (x.value === '') {
@@ -68,7 +69,7 @@ let emptyInputFix = () => {
         }
     });
 
-    if (isEmptyTask) {
+    if (isEmptyTask || actualInputDiv.length == 0) {
         window.alert(`Task cannot be empty`);
     } else {
       Data()
