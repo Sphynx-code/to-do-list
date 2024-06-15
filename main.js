@@ -4,9 +4,13 @@ changeTheme.addEventListener('click', () => {
     if (currentColor === "rgb(255, 255, 255)") {
        document.body.classList.add('dark-theme');
         localStorage.setItem('theme', '#2d2727'); 
+        window.location.reload();
+
     } else {
         document.body.classList.remove('dark-theme');
         localStorage.setItem('theme', 'rgb(255, 255, 255)'); 
+        window.location.reload();
+
     }
 });
 window.addEventListener('load', () => {
