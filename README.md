@@ -50,4 +50,4 @@ We welcome contributions to improve our To-Do List App. To contribute:
 
 ---
 
-Feel free to further customize this README with additional details or specific instructions for your To-Do List App built purely with frontend technologies. Happy coding!
+
